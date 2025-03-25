@@ -1,3 +1,24 @@
 body{
-    
+    background-image: linear-gradient(to bottom left, blue, white);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
+
+img {
+    border-radius: 4px;
+    padding: 5px;
+  }
+  
+#doc {
+    width: 75%; 
+  }
+
+#yogurt {
+  position: fixed;
+  top: 15%;
+  left: 45%;
+  z-index: 4;
+  transform: scale(60%);
+}
+
