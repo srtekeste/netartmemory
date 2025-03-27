@@ -206,17 +206,12 @@ h2{
   white-space: nowrap;
 }
 
-.blink-click{
+.blink-click {
     animation: blink 1s step-start infinite;
     position: fixed;
     bottom: 10%;
-    left: 60%;
+    left: 1010px;
     z-index: 4;  
-    font-family: "praxis-next", sans-serif;
-    font-weight: 900;
-    font-style: normal;
-    font-size: 60px;
-    color: white;
 }
 
 .arrow{
@@ -259,14 +254,22 @@ h2{
   transform: scale(1.1) rotate(5deg);
 }
 
-#finish-text {
+#finish-text a {
   position: fixed;
   bottom: 10%;
-  left: 60%;
+  left: 70%;
   z-index: 4;  
   font-family: "praxis-next", sans-serif;
   font-weight: 900;
   font-style: normal;
   font-size: 60px;
   color: white;
+}
+
+#confetti{
+  position: fixed;
+  top: 45%;
+  left: 66%;
+  z-index: 4;
+  transform: scale(120%);
 }
