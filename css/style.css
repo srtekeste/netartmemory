@@ -81,7 +81,7 @@ h1{
   }
 }
 
-.button{
+#button{
   position: fixed;
   left: 75%;
   bottom: 43%;
@@ -89,12 +89,12 @@ h1{
   transform: scale(60%);
 }
 
-.button:hover{
+#button:hover{
   opacity: 0.7;
   transform: scale(1);
 }
 
-.button2{
+#button2{
   position: fixed;
   left: 70.5%;
   bottom: 43%;
@@ -102,7 +102,7 @@ h1{
   transform: scale(60%);
 }
 
-.button2:hover{
+#button2:hover{
   opacity: 0.7;
   transform: scale(1);
 }
@@ -115,7 +115,7 @@ h1{
   transform: scale(40%);
 }
 
-.strawberry{
+#strawberry{
   position: fixed;
   left: 62%;
   bottom: 40%;
@@ -123,7 +123,7 @@ h1{
   transform: scale(60%);
 }
 
-.strawberry:hover{
+#strawberry:hover{
   opacity: 0.7;
   transform: scale(1);
 }
