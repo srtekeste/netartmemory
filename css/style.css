@@ -1,20 +1,15 @@
-body{
+body{ 
     background-image: linear-gradient(to bottom left, blue, white);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
-img {
-    border-radius: 4px;
-    padding: 5px;
-  }
-  
-#doc {
+#doc { /* doc image  */
     width: 75%; 
   }
 
-#yogurt {
+#home { /* home screen/ opening page  */
   position: fixed;
   top: 15%;
   left: 45%;
@@ -22,3 +17,79 @@ img {
   transform: scale(60%);
 }
 
+#play { /* play button  */
+  position: fixed;
+  top: 70%;
+  left: 67.5%;
+  z-index: 4;
+  transform: scale(60%);
+  
+}
+
+#play:hover { /* hover for play button  */
+  opacity: 0.7;
+}
+
+.container { /* holds cups and text  */
+  position: fixed;
+  top: 60%;
+  left: 60%;
+  z-index: 4;
+  transform: scale(80%);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 20px; 
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.overlay:hover{ /* cup hover */
+  opacity: 0.7;
+  transform: scale(1.5);
+}
+
+#filledorder { /* order to be completed by users */
+  position: fixed;
+  left: 91%;
+  bottom: 50%;
+  z-index: 4;
+  transform: scale(60%);
+}
+
+h1{
+  font-family: "praxis-next", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 60px;
+  position: fixed;
+  left: 10%;
+  bottom: 120%;
+  z-index: 4;
+  transform: scale(60%);
+  color: white;
+  white-space: nowrap;
+}
+
+.blinking-text{
+  animation: blink 1s step-start infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+.button{
+  position: fixed;
+  left: 75%;
+  bottom: 43%;
+  z-index: 4;
+  transform: scale(85%);
+}
+
+.button:hover{
+  opacity: 0.7;
+  transform: scale(1);
+}
