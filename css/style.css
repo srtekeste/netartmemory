@@ -187,3 +187,20 @@ h2{
 .blink-click{
     animation: blink 1s step-start infinite;
 }
+
+.arrow{
+  position: fixed;
+  top: 50%;
+  left: 60%;
+  z-index: 4;
+  transform: scale(80%);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 20px; 
+  max-width: 800px;
+  padding: 211px;
+}
+
+.arrow2{
+  
+}
