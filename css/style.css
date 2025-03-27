@@ -44,6 +44,17 @@ body{
   transform: scale(60%);
   
 }
+#play2 { /* play button  */
+  position: fixed;
+  top: 1100%;
+  left: 140px;
+  z-index: 4;
+  transform: scale(60%);
+}
+
+#play2:hover { /* hover for play button  */
+  opacity: 0.7;
+}
 
 #play:hover { /* hover for play button  */
   opacity: 0.7;
@@ -197,6 +208,15 @@ h2{
 
 .blink-click{
     animation: blink 1s step-start infinite;
+    position: fixed;
+    bottom: 10%;
+    left: 60%;
+    z-index: 4;  
+    font-family: "praxis-next", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 60px;
+    color: white;
 }
 
 .arrow{
@@ -219,4 +239,34 @@ h2{
   display: grid;
   max-width: 800px;
   padding: 2px;
+}
+
+.random-layout {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.random-layout img {
+  position: absolute;
+  width: 100px;
+  height: auto;
+  transition: transform 0.3s;
+}
+
+.random-layout img:hover {
+  transform: scale(1.1) rotate(5deg);
+}
+
+#finish-text {
+  position: fixed;
+  bottom: 10%;
+  left: 60%;
+  z-index: 4;  
+  font-family: "praxis-next", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 60px;
+  color: white;
 }
