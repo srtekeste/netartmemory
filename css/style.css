@@ -331,10 +331,10 @@ h2{
   transform: scale(120%);
 }
 
-#mute {
-  position: fixed;
-  right: 109px;
-  top: 745px;
-  z-index: 9999;
-  transform: scale(60%);
+#character {
+  position: fixed;     
+  z-index: 9999;        
+  bottom: -550px;              
+  left: 55%;
+  transform: scale(20%);
 }
