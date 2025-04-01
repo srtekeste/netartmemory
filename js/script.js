@@ -22,3 +22,9 @@
       img.classList.remove("slide-in");
     }, 10100);
   });
+
+
+  document.getElementById("mute").addEventListener("click", () => {
+    const music = document.getElementById("bg-music");
+    music.muted = !music.muted;
+  });

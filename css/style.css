@@ -41,8 +41,8 @@ body{
     position: absolute;
     top: 45%;
     left: 25%;
-    width: 420px;
-    height: 100px;
+    width: 740px;
+    height: 200px;
     font-size: 16px;
     padding: 6px;
     background: transparent;
@@ -329,4 +329,12 @@ h2{
   left: 66%;
   z-index: 4;
   transform: scale(120%);
+}
+
+#mute {
+  position: fixed;
+  right: 109px;
+  top: 745px;
+  z-index: 9999;
+  transform: scale(60%);
 }
