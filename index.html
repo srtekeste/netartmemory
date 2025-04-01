@@ -9,12 +9,23 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" href="img/favicon-16x16.png" type="image/x-icon">
+        <script src="js/script.js"></script>
+
 
     </head>
     <body>
         <img src="img/trashcan.png" id="trashcan">
-        <img src="img/googledocs.png" id="doc">
-        <img src="img/homepage.png" id="home">
+        
+        <div class="stack-container">
+            <div class="doc-container">
+                <img src="img/googledocblank.png" id="doc" class="click-to-front">
+                <textarea class="doc-textarea" placeholder="Type here...">
+                </textarea>
+            </div>
+            <img src="img/homepage.png" id="home" class="click-to-front">
+        </div>
+
 
             <a href="trash.html">
                 <img src="img/trashcan.png" id="trashcan" alt="click to look at trash">
